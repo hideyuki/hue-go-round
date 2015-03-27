@@ -1,0 +1,24 @@
+{
+  "name": "nock-the-hue-light",
+  "version": "1.1.0",
+  "description": "nock-the-hue-light",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/hideyuki/nock-the-hue-light.git"
+  },
+  "keywords": [
+    "hue"
+  ],
+  "author": "Hideyuki Takei <takehide22@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hideyuki/nock-the-hue-light/issues"
+  },
+  "homepage": "https://github.com/hideyuki/nock-the-hue-light",
+  "engines" : { "node" : ">=0.11.12" }
+}
