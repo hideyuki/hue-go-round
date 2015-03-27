@@ -14,7 +14,7 @@ if(userName){
     }
   }).done();
 } else {
-  console.log("Please add the env variable HUE_HOST_NAME");
+  console.log("Please add the env variable HUE_USER_NAME");
 }
 
 var lightState = hue.lightState;
@@ -24,7 +24,6 @@ function getLightInfo(){
 
   hueApi.lights().then(function(result){
     var lights = result.lights;
-
     var state = lightState.create().on().white(500, 0);
 
     for(var i=0; i<lights.length; i++){
